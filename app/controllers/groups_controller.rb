@@ -13,8 +13,8 @@ class GroupsController < ApplicationController
 
  def edit
 
-   if current_user != @group.user
-    
+end
+
 
   def new
     @group = Group.new
